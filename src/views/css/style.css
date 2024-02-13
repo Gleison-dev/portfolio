@@ -49,6 +49,19 @@ body{
     color: #FAFF70;
 }
 
+.contentProjects{
+    margin-top: 50px;
+}
+
+.infoProject1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardProject1{
+    border: 1px solid white;
+}
+
 #linkLinkedin{
     width: 50px;
     height: 50px;
@@ -87,6 +100,39 @@ body{
 #aboutMe{
     margin-top: 150px;
 }
+
+#titleProjects{
+    text-align: center;
+    margin-top: 150px;
+    text-decoration: underline;
+    color: #FAFF70;
+}
+
+#infoProject1{
+    padding: 1rem;
+}
+
+#titleProject1{
+    color: #FAFF70;
+    padding: 1rem;
+}
+
+#infoRepo1{
+    padding: 1rem;
+}
+
+#buttonRepo1{
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#buttonRepo1:hover{
+    background-color: #FAFF70;
+    cursor: pointer;
+}
+
 
 li{
     margin-left: 30px;
