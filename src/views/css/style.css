@@ -82,6 +82,21 @@ body{
     border: 1px solid white;
 }
 
+.titleContacts{
+    margin-top: 100px;
+}
+
+.contentContacts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer{
+    margin-top: 70px;
+}
+
 #linkLinkedin{
     width: 50px;
     height: 50px;
@@ -203,6 +218,31 @@ body{
     cursor: pointer;
 }
 
+#titleContacts{
+    color: #FAFF70;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#imgLinkedin{
+    width: 50px;
+    height: 50px;
+}
+
+#imgGithub{
+    width: 50px;
+    height: 50px;
+}
+
+#imgWhatsapp{
+    width: 50px;
+    height: 50px;
+}
+
+#footer{
+    text-align: center;
+    color: #FAFF70;
+}
 
 li{
     margin-left: 30px;
