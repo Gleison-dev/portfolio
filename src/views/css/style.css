@@ -58,7 +58,27 @@ body{
     justify-content: space-between;
 }
 
+.infoProject2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoProject3{
+    display: flex;
+    justify-content: space-between;
+}
+
 .cardProject1{
+    border: 1px solid white;
+}
+
+.cardProject2{
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.cardProject3{
+    margin-top: 10px;
     border: 1px solid white;
 }
 
@@ -112,12 +132,38 @@ body{
     padding: 1rem;
 }
 
+#infoProject2{
+    padding: 1rem;
+}
+
+#infoProject3{
+    padding: 1rem;
+}
+
 #titleProject1{
     color: #FAFF70;
     padding: 1rem;
 }
 
+#titleProject2{
+    color: #FAFF70;
+    padding: 1rem;
+}
+
+#titleProject3{
+    color: #FAFF70;
+    padding: 1rem;
+}
+
 #infoRepo1{
+    padding: 1rem;
+}
+
+#infoRepo2{
+    padding: 1rem;
+}
+
+#infoRepo3{
     padding: 1rem;
 }
 
@@ -128,7 +174,31 @@ body{
     font-size: 15px;
 }
 
+#buttonRepo2{
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#buttonRepo3{
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
 #buttonRepo1:hover{
+    background-color: #FAFF70;
+    cursor: pointer;
+}
+
+#buttonRepo2:hover{
+    background-color: #FAFF70;
+    cursor: pointer;
+}
+
+#buttonRepo3:hover{
     background-color: #FAFF70;
     cursor: pointer;
 }
