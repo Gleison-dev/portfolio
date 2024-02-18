@@ -253,3 +253,38 @@ a{
     color: #FFFAFF;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .cardHeader{
+        display: none;
+    }
+    .contentInicial{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .contentAboutMe{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contentContacts{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    #subtitle{
+        text-align: center;
+    }
+    #aboutMe{
+        margin-top: 50px;
+    }
+    #infoProject1{
+        display: none;
+    }
+    #infoProject2{
+        display: none;
+    }
+    #infoProject3{
+        display: none;
+    }
+}
