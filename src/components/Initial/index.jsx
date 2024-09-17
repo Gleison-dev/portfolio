@@ -17,7 +17,7 @@ export default function Initial() {
             Você irá conhecer um pouco sobre mim e sobre os meus projetos.
           </p>
           <div>
-            <Button text="Saiba mais" />
+            <p className="text-xl">Role a tela para baixo e saiba mais.</p>
           </div>
         </div>
       </div>

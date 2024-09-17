@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <>
-      <div className="flex justify-center bg-erie_black text-white mt-32">
+      <div id="aboutMe" className="flex justify-center bg-erie_black text-white mt-32">
         <h1 className="text-3xl border-b-2 border-olivine">Sobre Mim</h1>
       </div>
       <div className="flex justify-around items-center bg-erie_black text-white mt-14">
