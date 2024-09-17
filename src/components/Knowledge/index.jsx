@@ -7,6 +7,7 @@ import python from "../../assets/python.svg";
 import react from "../../assets/react.svg";
 import sequelize from "../../assets/sequelize.svg";
 import express from "../../assets/express.svg";
+import tailwindcss from "../../assets/tailwindcss.svg"
 import Icons from "../Icons";
 
 export default function Knowledge() {
@@ -27,6 +28,7 @@ export default function Knowledge() {
         <Icons image={sequelize} alt="Ícone do Sequelize" />
         <Icons image={react} alt="Ícone do React" />
         <Icons image={python} alt="Ícone do Python" />
+        <Icons image={tailwindcss} alt="Ícone do Tailwind CSS" />
       </div>
     </>
   );
