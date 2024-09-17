@@ -1,6 +1,8 @@
 import AboutMe from "../../components/AboutMe";
+import Contacts from "../../components/Contacts";
 import Header from "../../components/Header";
 import Initial from "../../components/Initial";
+import Knowledge from "../../components/Knowledge";
 import Projects from "../../components/Projects";
 
 export default function Home() {
@@ -17,6 +19,12 @@ export default function Home() {
       </section>
       <section>
         <Projects />
+      </section>
+      <section>
+        <Knowledge />
+      </section>
+      <section>
+        <Contacts />
       </section>
     </>
   );
